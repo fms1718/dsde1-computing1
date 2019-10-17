@@ -1,0 +1,9 @@
+#Number guessing
+
+import random
+
+guess = input('Type in a number between 1-10: ')
+
+actual = random.randint(1,10)
+
+print(int(guess) == actual)
