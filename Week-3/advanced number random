@@ -3,6 +3,7 @@
 
 guess = (input('Guess a number between 1-10'))
 
+
 import random
 
 actual = random.randint(1,10)
@@ -11,7 +12,7 @@ if (actual == guess):
     print('you got it!!!')
 
 elif (guess != actual):
-    newguess = input('guess again')
+    newguess = input('nope, guess again')
 
 if (actual == newguess):
     print('good job!')
